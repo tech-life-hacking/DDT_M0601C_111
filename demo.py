@@ -1,7 +1,7 @@
 import usart
 import time
 
-port_name = "PORTNAME"
+port_name = "/dev/serial/by-id/PORTNAME"
 cp = usart.CommunicationProtocol(port_name)
 
 Speed, Mode, ID, Acce, Brake_P = 150, 2, 1, 0, 0
